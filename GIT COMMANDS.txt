@@ -1,0 +1,54 @@
+Git personal token --> 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
+
+GIT COMMANDS --:
+
+
+git init --> for empty repository
+git add . --> for adding all the files from the folder
+touch name.xml --> for forming new xml file
+touch name.java --> for forming new java file
+touch name.txt--> for forming new text file
+git status --> for finding status of the file
+git commit -m "statement" --> for commiting your file
+ls --> for seeing all the files 
+git log --> for finding the status of commit
+mkdir name --> for forming new folder
+cd name --> for specifiying the folder path
+git clone file path --> to make the copy of directory in local computer
+[git pull file path       --> to pull the directory in local computer
+ git pull origin master]
+pwd --> for checking new folder directory
+git branch name --> to form a new branch
+git checkout branch name --> to switch to the new branch
+git branch --> to see all the branches existing in the file
+git merge branch name --> to merge branch in master branch  
+git rm file name --> to completely delete a file
+.gitignore --> ud=sed to ignore the file in repository
+git reset"RANDOM VAKUES OF LOG" --> to reset the latest commit
+                                    
+                                           GIT RESET [2 types]
+
+                               1 -> Hard reset              2 -> Soft reset
+
+                               [Sari files jo               [sirf commit kati hui file hi delete hogi]       
+                                unstaged hogi  
+                                vo bhi delete
+                                ho jaygi ]     
+
+git commit --ammend -m --> to change the latest commit message
+git commit --ammend   --> to change commit
+
+                                 {STASHING}
+git stash --> to hide file
+git stash pop --> to reappear file
+git stash clear --> to delete all hidden file
+git stash drop--> to delete recent stash
+
+
+FOR PUSHING A FILE IN NEW REPOSITORY WE PUSH COMMNAD --:
+
+Step 1 --> copy the path of the new repo by pasting in git bash window
+Step 2 --> then  check remote object by command
+           git remoteS
+
+Step 3 --> Now use "git push -u origin master" to push your file in new repository
